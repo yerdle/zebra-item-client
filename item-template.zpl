@@ -4,12 +4,8 @@
 ^PW406
 ^LL0203
 ^LS0
-^FT35,93^A0N,113,112^FH\^FD{{ it.id }}^FS
-^BY2,3,37^FT103,177^BCN,,Y,N
-{% if (String(it.id).length < 6) { %}
-^FD>;{{ String("000000" + it.id).slice(-6) }}^FS
-{% } else { %}
+^FT41,93^A0N,113,112^FH\^FD{{ it.id }}^FS
+^BY2,3,37^FT135,181^BCN,,Y,N
 ^FD>;{{ it.id }}^FS
-{% } %}
-^FT36,133^A0N,19,16^FH\^FD{{ it.title.substring(0, 40) }}^FS
+^FT41,134^A0N,19,16^FH\^FD{{ it.title.substring(0, 40) }}^FS
 ^PQ1,0,1,Y^XZ
